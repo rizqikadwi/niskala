@@ -4,7 +4,7 @@
 
 Niskala reads 145+ global news sources in real-time, analyzes them with a 4-stage agentic AI workflow, and visualizes cause-and-effect market impacts on an interactive 3D globe.
 
-![Niskala Screenshot](ui-globe/assets/screenshot.png)
+![Niskala Screenshot](ui-globe/assets/Screenshot.png)
 
 ## ✨ Features
 
@@ -19,8 +19,17 @@ Niskala reads 145+ global news sources in real-time, analyzes them with a 4-stag
 
 ```mermaid
 flowchart LR
-    A[145+ News Sources] --> B[Niskala-UI<br/>JSON Output]
+    A[145+ News Sources] --> B[Niskala UI<br/>JSON Output]
     B --> C[Quantitative Projector]
     C --> D[Prediction Tracker]
     D --> E[Calibration Engine]
     B --> F[🌍 Globe UI]
+
+🙏 Credits
+Built with Langflow
+
+Maps by Mapbox
+
+Name inspired by Javanese Kuna philosophy: niskala = the unseen realm
+
+inspired by https://github.com/unicodeveloper/globalthreatmap
