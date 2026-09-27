@@ -23,13 +23,14 @@ flowchart LR
     B --> C[Quantitative Projector]
     C --> D[Prediction Tracker]
     D --> E[Calibration Engine]
-    B --> F[🌍 Globe UI]
+    B --> F[ Globe UI]
+```
 
-🙏 Credits
+## 🙏 Credits
 Built with Langflow
 
 Maps by Mapbox
 
 Name inspired by Javanese Kuna philosophy: niskala = the unseen realm
 
-inspired by https://github.com/unicodeveloper/globalthreatmap
+Inspired by https://github.com/unicodeveloper/globalthreatmap
